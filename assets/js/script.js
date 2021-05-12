@@ -1,13 +1,13 @@
 // JS by Dan Høegh
 // UCN MMD 2021
 
-let NASAkey = "pEefEwyv0maeCjy7bccHgzgQZNfSSunMOcFqhdrq"; // Replace this with your own key
-let NASAurl = `https://api.nasa.gov/planetary/apod?api_key=${NASAkey}`;
+let key = "pEefEwyv0maeCjy7bccHgzgQZNfSSunMOcFqhdrq"; // Replace this with your own key
+let url = `https://api.nasa.gov/planetary/apod?api_key=${key}`;
 
 getDataNASA();
 
 function getDataNASA() {
-  fetch(NASAurl) // fetch returns a promise containing the response as a response object. 
+  fetch(url) // fetch returns a promise containing the response as a response object. 
     .then(response => response.json()) // take the response and return is as in JSON format
     .then(data => {
       showAPOD(data);
