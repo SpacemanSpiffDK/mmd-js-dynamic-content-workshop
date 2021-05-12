@@ -1,7 +1,7 @@
 // JS by Dan Høegh
 // UCN MMD 2021
 
-let key = "pEefEwyv0maeCjy7bccHgzgQZNfSSunMOcFqhdrq"; // Replace this with your own key
+let key = "pEefEwyv0maeCjy7bccHgzgQZNfSSunMOcFqhdrq"; // Replace this with your own key, get one here: https://api.nasa.gov/
 let url = `https://api.nasa.gov/planetary/apod?api_key=${key}`;
 
 getDataNASA();
