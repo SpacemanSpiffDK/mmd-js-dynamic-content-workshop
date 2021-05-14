@@ -9,6 +9,28 @@ body {
 	padding: 5vw;
 	font-size: 4vw;
 	line-height: 1.4;
+	background-color: #000;
+}
+
+h1 {
+	color: #000;
+	background-color: #ccc;
+	text-align: center;
+	margin: 0;
+	font-size: 5vw;
+}
+
+h2 {
+	font-size: 3vw;
+	margin: 1rem 0;
+}
+
+h2, p {
+	color: #ccc;
+}
+
+img {
+	width: 100%;
 }
 
 @media (min-width: 641px) {
